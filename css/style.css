@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-body {
+    color: white;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.card {
+    text-align: white;
+    background-color: black;
+}
+
+.btn-dark {
+    background-color: salmon;
+    color: white;
+}
+
+footer {
+    background-color: salmon;
+}
+
+.navbar {
+    background-color: salmon;
+}
+   
+
+    
