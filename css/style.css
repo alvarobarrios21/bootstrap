@@ -60,8 +60,7 @@ footer {
 
 .bi {
     color: black;
-    
-    border-radius: 10px;
+    border-radius: 0%;
 }
 
 .bi:hover {
