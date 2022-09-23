@@ -1,0 +1,31 @@
+footer {
+    background-color: salmon;
+
+  
+    .bi {
+        color: black;
+        border-radius: 0%;
+    }
+
+    .bi:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19); 
+        transition: box-shadow 0.4s ease-in-out;
+        cursor: pointer;
+     }
+      
+     .copy {
+        color: black;
+        text-align: center;
+    }
+     
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
+
+
+
+

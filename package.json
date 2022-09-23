@@ -1,0 +1,23 @@
+{
+  "name": "proyectokeniweers",
+  "version": "1.0.0",
+  "description": "proyecto de indumentaria",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss  ./scss/style.scss  ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarobarrios21/bootstrap.git"
+  },
+  "author": "Alvaro Barrios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvarobarrios21/bootstrap/issues"
+  },
+  "homepage": "https://github.com/alvarobarrios21/bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "bootstrap-icons": "^1.9.1"
+  }
+}
