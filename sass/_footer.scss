@@ -2,12 +2,16 @@ footer {
     background-color: salmon;
 
   
-    .bi {
-        color: black;
+    .justify-content-evenly {
         border-radius: 0%;
+        font-size: 40px;
+        margin: 18px;
+        align-self: center;
     }
 
-    .bi:hover {
+    
+
+    .a,i:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19); 
         transition: box-shadow 0.4s ease-in-out;
         cursor: pointer;
@@ -26,6 +30,16 @@ footer {
     right: 10px;
 }
 
- 
+$redes: (
+    facebook:rgb(25, 0, 255),
+    instagram: rgb(255, 7, 255),
+    tiktok:black
+);
 
+
+ @each $redsocial, $color in $redes {
+   .fa-#{$redsocial} {
+        color: $color;
+    }
+ }
 

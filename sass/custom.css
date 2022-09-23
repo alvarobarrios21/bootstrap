@@ -10967,11 +10967,13 @@ header .navbar-brand .d-flex {
 footer {
   background-color: salmon;
 }
-footer .bi {
-  color: black;
+footer .justify-content-evenly {
   border-radius: 0%;
+  font-size: 40px;
+  margin: 18px;
+  align-self: center;
 }
-footer .bi:hover {
+footer .a, footer i:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: box-shadow 0.4s ease-in-out;
   cursor: pointer;
@@ -10985,4 +10987,16 @@ footer .copy {
   position: fixed;
   bottom: 30px;
   right: 10px;
+}
+
+.fa-facebook {
+  color: rgb(25, 0, 255);
+}
+
+.fa-instagram {
+  color: rgb(255, 7, 255);
+}
+
+.fa-tiktok {
+  color: black;
 }/*# sourceMappingURL=custom.css.map */
