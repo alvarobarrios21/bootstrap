@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.fa-facebook, .fa-instagram, .fa-tiktok {
+  border-radius: 5px;
+}
+.fa-facebook:hover, .fa-instagram:hover, .fa-tiktok:hover {
+  background-color: rgba(255, 255, 255, 0.562);
+}
+
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

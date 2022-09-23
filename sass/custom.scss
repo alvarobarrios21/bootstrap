@@ -4,6 +4,14 @@ $font-family-sans-serif: 'Quicksand', sans-serif;
 $maincolor:salmon;
 $secondary: pink;
 
+%iconitos {
+    border-radius: 5px;
+
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.562);
+    }
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
