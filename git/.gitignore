@@ -1,5 +1,2 @@
 # ignorar archivos y carpetas
-@popperjs
-bootstrap
-bootstrap-icons
-.package-lock.json
+node_modules
