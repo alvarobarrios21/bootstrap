@@ -1,0 +1,16 @@
+.cajitas {
+    margin-bottom: 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .cajita {
+        background: $maincolor;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
