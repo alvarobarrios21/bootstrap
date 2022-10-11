@@ -1,2 +1,2 @@
-# Repositorio demo 
+# Proyecto final 
 proyecto de indumentaria para **keniweers**
